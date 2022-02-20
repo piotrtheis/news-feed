@@ -3,6 +3,8 @@ package sg.feed.news;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
+import sg.feed.news.domain.ContentProvider;
+import sg.feed.news.domain.News;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -2,6 +2,10 @@ package sg.feed.news;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import sg.feed.news.domain.ContentProvider;
+import sg.feed.news.domain.LineFormatter;
+import sg.feed.news.domain.News;
+import sg.feed.news.domain.NewsStorage;
 
 import java.util.List;
 import java.util.stream.Collectors;

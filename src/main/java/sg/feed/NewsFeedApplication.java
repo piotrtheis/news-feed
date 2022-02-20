@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 import sg.feed.news.FileSystemNewsStorage;
-import sg.feed.news.LineFormatter;
+import sg.feed.news.domain.LineFormatter;
 import sg.feed.news.NewsFeed;
 import sg.feed.news.NewsModule;
 

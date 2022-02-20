@@ -1,6 +1,8 @@
 package sg.feed.news;
 
 import org.junit.jupiter.api.Test;
+import sg.feed.news.domain.LineFormatter;
+import sg.feed.news.domain.News;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.quicktheories.QuickTheory.qt;

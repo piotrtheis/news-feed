@@ -1,5 +1,7 @@
 package sg.feed.news;
 
+import sg.feed.news.domain.NewsStorage;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;

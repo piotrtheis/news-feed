@@ -3,6 +3,7 @@ package sg.feed.news;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import sg.feed.news.domain.ContentProvider;
 
 @Configuration
 @EnableConfigurationProperties({NewsApiConfig.class})

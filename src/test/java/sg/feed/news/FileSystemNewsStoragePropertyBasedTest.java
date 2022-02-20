@@ -3,6 +3,9 @@ package sg.feed.news;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
+import sg.feed.news.domain.LineFormatter;
+import sg.feed.news.domain.News;
+import sg.feed.news.domain.NewsStorage;
 
 import java.nio.file.Path;
 

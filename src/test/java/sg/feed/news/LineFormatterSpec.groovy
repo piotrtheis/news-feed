@@ -1,5 +1,7 @@
 package sg.feed.news
 
+import sg.feed.news.domain.LineFormatter
+import sg.feed.news.domain.News
 import spock.lang.Specification
 
 class LineFormatterSpec extends Specification {

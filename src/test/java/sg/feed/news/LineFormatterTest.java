@@ -3,6 +3,8 @@ package sg.feed.news;
 import com.github.javafaker.Faker;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
+import sg.feed.news.domain.LineFormatter;
+import sg.feed.news.domain.News;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

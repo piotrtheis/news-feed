@@ -1,4 +1,4 @@
-package sg.feed.news;
+package sg.feed.news.domain;
 
 public interface LineFormatter {
 

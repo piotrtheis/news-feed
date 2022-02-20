@@ -1,6 +1,7 @@
 package sg.feed.news;
 
 import com.github.javafaker.Faker;
+import sg.feed.news.domain.News;
 
 public class FakeNews extends News {
 

@@ -1,4 +1,4 @@
-package sg.feed.news;
+package sg.feed.news.domain;
 
 import lombok.Getter;
 import lombok.ToString;
