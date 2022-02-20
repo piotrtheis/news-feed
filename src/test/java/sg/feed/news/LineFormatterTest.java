@@ -30,7 +30,8 @@ class LineFormatterTest {
         return new String[][]{
                 {faker.book().title(), faker.lorem().paragraph(25), faker.internet().domainName()},
                 {faker.book().title(), faker.lorem().paragraph(50), faker.internet().domainName()},
-                {faker.book().title(), faker.lorem().paragraph(75), faker.internet().domainName()}
+                {faker.book().title(), faker.lorem().paragraph(75), faker.internet().domainName()},
+                {"Title\ntitle\r\ntitle", "Content\n\rcontent\ncontent\r\n", faker.internet().domainName()}
         };
     }
 }

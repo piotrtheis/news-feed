@@ -15,6 +15,6 @@ class LineFormatterSpec extends Specification {
 
         then:
             row.lines().count() == 1
-            row == "title:some  content:Piotr"
+            row == "title:some   content:Piotr"
     }
 }

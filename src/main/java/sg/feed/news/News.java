@@ -1,11 +1,13 @@
 package sg.feed.news;
 
 import lombok.Getter;
+import lombok.ToString;
 
 import java.util.Objects;
 import java.util.UUID;
 
 @Getter
+@ToString
 public class News {
 
     private final UUID uuid = UUID.randomUUID();
