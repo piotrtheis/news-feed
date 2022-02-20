@@ -4,13 +4,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
 
-import javax.sound.sampled.Line;
 import java.nio.file.Path;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import static org.assertj.core.api.BDDAssertions.then;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.quicktheories.QuickTheory.qt;
 import static org.quicktheories.generators.SourceDSL.strings;
 
@@ -36,7 +32,8 @@ class FileSystemNewsStoragePropertyBasedTest {
                         strings().ascii().ofLengthBetween(0, 15000),
                         strings().ascii().ofLengthBetween(0, 50)
                 ).as(News::new).checkAssert(news -> {
-                    var formatter = new LineFormatter(){};
+                    var formatter = new LineFormatter() {
+                    };
                     var content = formatter.format(news);
                     storage.store(content);
 
